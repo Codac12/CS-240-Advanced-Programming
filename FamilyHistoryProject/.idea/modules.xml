@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FamilyHistoryProject.iml" filepath="$PROJECT_DIR$/FamilyHistoryProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/familyhistoryapp/familyhistoryapp.iml" filepath="$PROJECT_DIR$/familyhistoryapp/familyhistoryapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/familyhistoryserver/familyhistoryserver.iml" filepath="$PROJECT_DIR$/familyhistoryserver/familyhistoryserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shared/shared.iml" filepath="$PROJECT_DIR$/shared/shared.iml" />
+    </modules>
+  </component>
+</project>

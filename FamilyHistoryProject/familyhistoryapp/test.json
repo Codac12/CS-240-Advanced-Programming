@@ -1,0 +1,387 @@
+{
+  "users": [
+    {
+      "userName": "Codac",
+      "password": "codac",
+      "email": "codac@live.com",
+      "firstName": "Cody",
+      "lastName": "Kesler",
+      "gender": "male",
+      "personID": "cod_kesler"
+    }
+  ],
+  "persons": [
+    {
+      "firstName": "cod_kesler",
+      "lastName": "Kesler",
+      "gender": "male",
+      "personID": "cod_kesler",
+      "descendant": "cod_kesler",
+      "father": "mike_kesler",
+      "mother": "manu_muen"
+    },
+    {
+      "firstName": "Matt",
+      "lastName": "Kesler",
+      "gender": "male",
+      "personID": "matt_kesler",
+      "descendant": "cod_kesler",
+      "father": "den_kesler",
+      "mother": "lea_clem",
+      "spouse": "tauna_bailey"
+    },
+    {
+      "firstName": "Tauna",
+      "lastName": "Bailey",
+      "gender": "female",
+      "personID": "tauna_bailey",
+      "descendant": "cod_kesler",
+      "father": "hans_muen",
+      "mother": "urs_hat",
+      "spouse": "mike_kesler"
+    },
+    {
+      "firstName": "Orson",
+      "lastName": "kesler",
+      "gender": "male",
+      "personID": "orson_kesler",
+      "descendant": "cod_kesler",
+      "spouse": "claudia_lastname"
+    },
+    {
+      "firstName": "Claudia",
+      "lastName": "Lastname",
+      "gender": "female",
+      "personID": "claudia_lastname",
+      "descendant": "cod_kesler",
+      "spouse": "orson_kesler"
+    },
+    {
+      "firstName": "Tom",
+      "lastName": "Bailey",
+      "gender": "male",
+      "personID": "tom_baliey",
+      "descendant": "cod_kesler",
+      "spouse": "lejoice_lastnametwo"
+    },
+    {
+      "firstName": "Lejoice",
+      "lastName": "Lastnametwo",
+      "gender": "female",
+      "personID": "lejoice_lastnametwo",
+      "descendant": "cod_kesler",
+      "spouse": "tom_baliey"
+    }
+  ],
+"events": [
+    {
+      "eventType": "Birth",
+      "personID": "cod_kesler",
+      "city": "Orem",
+      "country": "United States",
+      "latitude": 40.296898,
+      "longitude": -111.694649,
+      "year": 1994,
+      "descendant":"cod_kesler",
+      "eventID": "event1"
+    },
+    {
+      "eventType": "Served a Mission",
+      "personID": "cod_kesler",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "latitude": 30.5595,
+      "longitude": 22.9375,
+      "year": 2013,
+      "descendant":"cod_kesler",
+      "eventID": "event2"
+    },
+    {
+      "eventType": "Baptism",
+      "personID": "cod_kesler",
+      "city": "Berlin",
+      "country": "Germany",
+      "latitude": 52.520008,
+      "longitude": 13.404954,
+      "year": 1969,
+      "descendant":"cod_kesler",
+      "eventID": "event3"
+    },
+    {
+      "eventType": "Marriage",
+      "personID": "cod_kesler",
+      "city": "Bremen",
+      "country": "Germany",
+      "latitude": 53.0833,
+      "longitude": 8.8000,
+      "year": 1993,
+      "descendant":"cod_kesler",
+      "eventID": "event4"
+    },
+    {
+      "eventType": "Birth",
+      "personID": "matt_kesler",
+      "city": "Düsseldorf",
+      "country": "Germany",
+      "latitude": 51.2333,
+      "longitude": 6.7833,
+      "year": 1959,
+      "descendant":"cod_kesler",
+      "eventID": "event5"
+    },
+    {
+      "eventType": "Moved to America",
+      "personID": "matt_kesler",
+      "city": "New York City",
+      "country": "United States",
+      "latitude": 40.6667,
+      "longitude": -72.0667,
+      "year": 1994,
+      "descendant":"cod_kesler",
+      "eventID": "event6"
+    },
+    {
+      "eventType": "Death",
+      "personID": "matt_kesler",
+      "city": "Flensburg",
+      "country": "Germany",
+      "latitude": 54.7833,
+      "longitude": 9.4333,
+      "year": 2015,
+      "descendant":"cod_kesler",
+      "eventID": "event7"
+    },
+    {
+      "eventType": "Baptism",
+      "personID": "matt_kesler",
+      "city": "Provo",
+      "country": "United States",
+      "latitude": 40.2338,
+      "longitude": -111.6585,
+      "year": 2016,
+      "descendant":"cod_kesler",
+      "eventID": "event8"
+    },
+    {
+      "eventType": "Visited America",
+      "personID": "tauna_bailey",
+      "city": "Woodland Hills",
+      "country": "United States",
+      "latitude": 40.0179,
+      "longitude": -111.6482,
+      "year": 2001,
+      "descendant":"cod_kesler",
+      "eventID": "event9"
+    },
+    {
+      "eventType": "Birth",
+      "personID": "tauna_bailey",
+      "city": "Gdynia",
+      "country": "Poland",
+      "latitude": 54.5000,
+      "longitude": 18.5500,
+      "year": 1932,
+      "descendant":"cod_kesler",
+      "eventID": "event10"
+    },
+    {
+      "eventType": "Called as General Authority",
+      "personID": "tauna_bailey",
+      "city": "Salt Lake City",
+      "country": "United States",
+      "latitude": 40.7500,
+      "longitude": -110.1167,
+      "year": 1992,
+      "descendant":"cod_kesler",
+      "eventID": "event11"
+    },
+    {
+      "eventType": "Birth",
+      "personID": "tauna_bailey",
+      "city": "Jerusalem",
+      "country": "Israel",
+      "latitude": 31.7833,
+      "longitude": 35.2167,
+      "year": 1940,
+      "descendant":"cod_kesler",
+      "eventID": "event12"
+    },
+    {
+      "eventType": "Death",
+      "personID": "orson_kesler",
+      "city": "Bluffdale",
+      "country": "United States",
+      "latitude": 40.4897,
+      "longitude": -111.939619,
+      "year": 2004,
+      "descendant":"cod_kesler",
+      "eventID": "event13"
+    },
+    {
+      "eventType": "Served a Mission",
+      "personID": "orson_kesler",
+      "city": "Linz",
+      "country": "Austria",
+      "latitude": 48.3000,
+      "longitude": 14.2833,
+      "year": 1994,
+      "descendant":"cod_kesler",
+      "eventID": "event14"
+    },
+    {
+      "eventType": "Baptism",
+      "personID": "orson_kesler",
+      "city": "Eureka",
+      "country": "Canada",
+      "latitude": 79.9833,
+      "longitude": -84.0667,
+      "year": 2002,
+      "descendant":"cod_kesler",
+      "eventID": "event15"
+    },
+    {
+      "eventType": "Marriage",
+      "personID": "orson_kesler",
+      "city": "Los Angeles",
+      "country": "United States",
+      "latitude": 34.0500,
+      "longitude": -117.7500,
+      "year": 2013,
+      "descendant":"cod_kesler",
+      "eventID": "event16"
+    },
+    {
+      "eventType": "Birth",
+      "personID": "claudia_lastname",
+      "city": "Longyearbyen",
+      "country": "Norway",
+      "latitude": 78.2167,
+      "longitude": 15.6500,
+      "year": 1969,
+      "descendant":"cod_kesler",
+      "eventID": "event17"
+    },
+    {
+      "eventType": "Served a Mission",
+      "personID": "claudia_lastname",
+      "city": "Qaanaaq",
+      "country": "Denmark",
+      "latitude": 77.4667,
+      "longitude": -68.7667,
+      "year": 1990,
+      "descendant":"cod_kesler",
+      "eventID": "event18"
+    },
+    {
+      "eventType": "Went to India",
+      "personID": "claudia_lastname",
+      "city": "Srinagar",
+      "country": "India",
+      "latitude": 34.0833,
+      "longitude": 74.7833,
+      "year": 1980,
+      "descendant":"cod_kesler",
+      "eventID": "event19"
+    },
+    {
+      "eventType": "Baptism",
+      "personID": "claudia_lastname",
+      "city": "Tokushima",
+      "country": "Japan",
+      "latitude": 34.0667,
+      "longitude": 134.5500,
+      "year": 1987,
+      "descendant":"cod_kesler",
+      "eventID": "event20"
+    },
+    {
+      "eventType": "Birth",
+      "personID": "tom_baliey",
+      "city": "Rabat",
+      "country": "Morocco",
+      "latitude": 34.0333,
+      "longitude": -5.1667,
+      "longitude": 9.4333,
+      "year": 1930,
+      "descendant":"cod_kesler",
+      "eventID": "event21"
+    },
+    {
+      "eventType": "Visited America",
+      "personID": "tom_baliey",
+      "city": "Columbia",
+      "country": "United States",
+      "latitude": 34.0000,
+      "longitude": -80.9500,
+      "year": 2002,
+      "descendant":"cod_kesler",
+      "eventID": "event22"
+    },
+    {
+      "eventType": "Marriage",
+      "personID": "tom_baliey",
+      "city": "Riverside",
+      "country": "United States",
+      "latitude": 33.9500,
+      "longitude": -116.6000,
+      "year": 1975,
+      "descendant":"cod_kesler",
+      "eventID": "event23"
+    },
+    {
+      "eventType": "Had First Child",
+      "personID": "tom_baliey",
+      "city": "Casablanca",
+      "country": "Morocco",
+      "latitude": 33.5333,
+      "longitude": -6.4167,
+      "year": 1952,
+      "descendant":"cod_kesler",
+      "eventID": "event24"
+    },
+    {
+      "eventType": "Served a Mission",
+      "personID": "lejoice_lastnametwo",
+      "city": "Kumamoto",
+      "country": "Japan",
+      "latitude": 32.7833,
+      "longitude": 130.7333,
+      "year": 1989,
+      "descendant":"cod_kesler",
+      "eventID": "event25"
+    },
+    {
+      "eventType": "Served a Mission",
+      "personID": "lejoice_lastnametwo",
+      "city": "Funchal",
+      "country": "Portugal",
+      "latitude": 32.6500,
+      "longitude": -15.0833,
+      "year": 1983,
+      "descendant":"cod_kesler",
+      "eventID": "event26"
+    },
+    {
+      "eventType": "Birth",
+      "personID": "lejoice_lastnametwo",
+      "city": "Tijuana",
+      "country": "Mexico",
+      "latitude": 32.5333,
+      "longitude": -116.9667,
+      "year": 1940,
+      "descendant":"cod_kesler",
+      "eventID": "event27"
+    },
+    {
+      "eventType": "Baptism",
+      "personID": "lejoice_lastnametwo",
+      "city": "Hermosillo",
+      "country": "Mexico",
+      "latitude": 29.1000,
+      "longitude": -109.0500,
+      "year": 1948,
+      "descendant":"cod_kesler",
+      "eventID": "event28"
+    }   
+  ]
+}

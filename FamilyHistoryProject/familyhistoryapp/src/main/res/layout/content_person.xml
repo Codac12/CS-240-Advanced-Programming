@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.codac.admin.familyhistoryapp.personActivity"
+    tools:showIn="@layout/activity_person">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/first_name_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Name:"
+                android:padding="15dp"
+                android:textSize="30dp" />
+
+
+            <TextView
+                android:id="@+id/first_name_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:padding="15dp"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/last_name_pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name:"
+            android:padding="15dp"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/last_name_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:padding="15dp"
+            android:textSize="30dp"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/gender_pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender:"
+            android:padding="15dp"
+            android:textSize="30dp" />
+        <TextView
+            android:id="@+id/gender_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:padding="15dp"
+            android:textSize="30dp"/>
+
+        </LinearLayout>
+
+        <ExpandableListView
+            android:id="@+id/event_expand_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="@color/colorPrimaryDark"
+            android:dividerHeight="2dp">
+        </ExpandableListView>
+
+        <ExpandableListView
+            android:id="@+id/person_expand_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="@color/colorPrimaryDark"
+            android:dividerHeight="2dp">
+        </ExpandableListView>
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

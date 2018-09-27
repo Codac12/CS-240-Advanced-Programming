@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.codac.admin.familyhistoryapp.settingsActivity"
+    tools:showIn="@layout/activity_settings">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/life_lines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Life Story Lines"
+                android:padding="10dp"
+                android:layout_marginRight="60dp"/>
+
+            <Spinner
+                android:id="@+id/life_lines_color"
+                android:layout_width="100dp"
+                android:layout_gravity="left"
+                android:layout_height="match_parent"
+                android:entries="@array/line_colors"
+                android:prompt="@string/map_prompt"
+                />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/tree_lines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Family Tree Lines"
+            android:textSize="25dp"
+            android:padding="10dp"
+            android:layout_marginRight="36dp"/>
+
+        <Spinner
+            android:id="@+id/tree_lines_color"
+            android:layout_width="100dp"
+            android:layout_gravity="left"
+            android:layout_height="match_parent"
+            android:entries="@array/line_colors"
+            android:prompt="@string/map_prompt"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/spouse_lines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spouse Lines"
+            android:textSize="25dp"
+            android:padding="10dp"
+            android:layout_marginRight="85dp"/>
+
+        <Spinner
+            android:id="@+id/spouse_lines_color"
+            android:layout_width="100dp"
+            android:layout_gravity="left"
+            android:layout_height="match_parent"
+            android:entries="@array/line_colors"
+            android:prompt="@string/map_prompt"/>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Map Type:"
+                android:textSize="30dp"
+                android:padding="10dp"
+                android:paddingRight="50dp"/>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:entries="@array/map_types"
+                android:prompt="@string/map_prompt"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/sync_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Re-Sync Data"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
